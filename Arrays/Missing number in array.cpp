@@ -4,8 +4,8 @@
   N = 10
   A[] = {1,2,3,4,5,6,7,8,10}
   Output: 9
-*/
-/*  XOR has certain properties 
+  
+  XOR has certain properties 
     Assume a1 ^ a2 ^ a3 ^ …^ an = a and a1 ^ a2 ^ a3 ^ …^ an-1 = b
     Then a ^ b = an
 */
