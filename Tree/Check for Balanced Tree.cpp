@@ -8,7 +8,7 @@ int calcHeight(Node*root){
 bool isBalanced(Node *root)
 {
     if(root==NULL) return true;
-    int lh=calcHeight(root->left);//rh=right height,lh=left height.
+    int lh=calcHeight(root->left);//rh=right subtree height,lh=left subtree height.
     int rh=calcHeight(root->right);
     return (abs(lh-rh)<=1 && isBalanced(root->left) && isBalanced(root->right));
 }
